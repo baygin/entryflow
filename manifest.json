@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "entryflow",
+  "version": "1.0",
+  "description": "ekşi sözlük başlıklarında anlık olarak yeni entry'leri gösterir",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://eksisozluk.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://eksisozluk.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

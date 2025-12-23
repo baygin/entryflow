@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>entryflow</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 300px;
+      padding: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .logo-text {
+      color: #81c14b;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .setting {
+      background: #fff;
+      padding: 12px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .setting label {
+      display: block;
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 6px;
+    }
+
+    .setting input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 13px;
+    }
+
+    .setting select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 13px;
+      background: #fff;
+    }
+
+    .info {
+      background: #e8f5e9;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 16px;
+      font-size: 12px;
+      color: #2e7d32;
+      line-height: 1.5;
+    }
+
+    .info strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #1b5e20;
+    }
+
+    .info ul {
+      margin-left: 20px;
+      margin-top: 8px;
+    }
+
+    .info li {
+      margin-bottom: 4px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 10px;
+      background: #81c14b;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      margin-top: 12px;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #6fa83d;
+    }
+
+    .status {
+      text-align: center;
+      padding: 8px;
+      margin-top: 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      display: none;
+    }
+
+    .status.success {
+      background: #e8f5e9;
+      color: #2e7d32;
+      display: block;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 16px;
+      font-size: 11px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <div class="logo-text">⚡ entryflow</div>
+  </div>
+
+  <h1>entryflow</h1>
+
+  <div class="info">
+    <strong>nasıl kullanılır:</strong>
+    <ul>
+      <li>bir başlık sayfasını açın</li>
+      <li>sağ altta çıkan kontrol panelinden otomatik güncellemeyi başlatın</li>
+      <li>güncelleme süresini kontrol panelinden ayarlayabilirsiniz</li>
+      <li>yeni entry'ler otomatik olarak eklenecek ve size gösterilecektir</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    v1.0 - kalple falan yapılmadı
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
