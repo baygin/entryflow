@@ -6,7 +6,7 @@ sayfayı yenilemeden başlığa düşen fresh entry'ler otomatik geliyor, yeşil
 
 ## kurulum
 
-chrome web store'dan indir: https://chrome.google.com/webstore/detail/eksi-flow/abcdefghijklmnopqrstuvwxyzabcdef
+chrome web store'dan indir: [https://chromewebstore.google.com/detail/entryflow/lanibmfekacpmmkdnmmobhopdjogapbd](https://chromewebstore.google.com/detail/entryflow/lanibmfekacpmmkdnmmobhopdjogapbd)
 
 ## kullanım
 
